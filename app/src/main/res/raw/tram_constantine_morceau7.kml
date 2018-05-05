@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tramway de Constantine morceau 1</name>
+	<open>1</open>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbf0000</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbf0000</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Tramway de Constantine</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				6.61771750,36.34072394,0 6.617709700094736,36.34072134946172,0 6.617385641076057,36.33999897278673,0 6.617256188899638,36.33973197965877,0 6.616994574066942,36.33921737177068,0 6.61689593853316,36.33897872536241,0 6.616840835222186,36.33878925574019,0 6.616805317945866,36.33864741312775,0 6.616750395118201,36.3382863162367,0 6.616752558268,36.33796836963695,0 6.616806186525814,36.33754178691152,0 6.616926331696186,36.33700999010665,0 6.617050988337936,36.33634852424007,0 6.617064718864992,36.33609862376647,0 6.617063590279146,36.33585493878389,0 6.617008429508715,36.33542557941716,0 6.616975285000697,36.33521991892156,0 6.616857620878392,36.33458726851805,0 6.616716317307207,36.33394386243354,0 6.61669502,36.33374303,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

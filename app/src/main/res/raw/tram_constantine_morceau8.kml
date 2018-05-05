@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tramway de Constantine morceau 1</name>
+	<open>1</open>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbf0000</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbf0000</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Tramway de Constantine</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				6.61669502,36.33374303,0 6.616580061840658,36.33318864555904,0 6.616556237938926,36.33285155422146,0 6.616610534570917,36.33246440701809,0 6.616685695103715,36.33219749924078,0 6.61668720829171,36.33219303980867,0 6.616764844482466,36.33199805148107,0 6.616942433732751,36.33162718147545,0 6.617408353624839,36.33076747771,0 6.617837945834564,36.33009827614644,0 6.618154790401527,36.32976183536207,0 6.618504400383252,36.3294446028142,0 6.618998144346446,36.32900836904103,0 6.61912341967118,36.32885218864816,0 6.619225557686486,36.32870206816979,0 6.619300334079643,36.32850697081728,0 6.619325378479837,36.32836918365349,0 6.61935668357899,36.32806262858704,0 6.619353450854022,36.32789616153887,0 6.619371944869201,36.32779769335642,0 6.619431256074528,36.32758609440517,0 6.619673152361669,36.32676800884238,0 6.619812242859968,36.32630967308258,0 6.620065679935633,36.32549655959508,0 6.620166907270568,36.32530138240541,0 6.620168091705338,36.32530129211412,0 6.620244181380799,36.32520796416868,0 6.620553504882571,36.32478772042384,0 6.620826340569234,36.32445249596367,0 6.621000093412048,36.32422372078925,0 6.621079004012362,36.32409576647736,0 6.621126001226942,36.32394395011298,0 6.62112641263499,36.32394087266691,0 6.621154121907386,36.32381228968078,0 6.621155961603263,36.32360047161308,0 6.621143462720973,36.3233997499382,0 6.62109795,36.32268517,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

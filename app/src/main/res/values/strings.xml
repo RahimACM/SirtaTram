@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sirta Tram</string>
+    <string name="title_activity_maps">Sirta Tram</string>
+    <string-array name="stations_array">
+        <item>Ben Abdelmalek Remdane (Terminus)</item>
+        <item>Belle Vue</item>
+        <item>Kadous Boumedous</item>
+        <item>Emir Abdelkader</item>
+        <item>Fadhila Saadane</item>
+        <item>Z.I Palma</item>
+        <item>Université Mentouri</item>
+        <item>Résidence Universitaire Mentouri</item>
+        <item>Cité Kheznadar</item>
+        <item>Zouaghi Sliman (Terminus)</item>
+    </string-array>
+</resources>
